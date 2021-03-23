@@ -1,0 +1,21 @@
+{
+  "title": "Objective",
+  "description": "Create a <strong>Cloudinary</strong> account",
+  "validation_fields": [
+    {
+      "name": "answer1",
+      "type": "text",
+      "placeholder": "type your answer here",
+      "label": "Did you successfully create an account on cloudinary.com?"
+    },
+    {
+      "name": "answer2",
+      "type": "text",
+      "placeholder": "type your answer here",
+      "label": "What is the cloudname you created?"
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}
