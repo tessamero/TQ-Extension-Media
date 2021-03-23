@@ -1,0 +1,20 @@
+{
+  "title": "Image Manipulation Mission",
+  "description": "In this mission, you will learn how to edit images in real-time",
+  "events": "image_manipulation_mission/events.js",
+  "default_map": "image_manipulation/default.json",
+  "mission_icon": "mission_icon.png",
+  "is_mission": true,
+  "priority": 1,
+  "backgroundMusic": "hackertheme_104771b",
+  "backgroundEffect": {
+    "key": "starfield",
+    "options": {}
+  },
+  "flavorTextOverrides": {
+    "bookshelf": "There's nothing like a good book."
+  },
+  "objectives": [
+    "image_manipulation_mission/example_objective"
+  ]
+}
