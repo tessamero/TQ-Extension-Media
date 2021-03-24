@@ -18,7 +18,44 @@ have completed the challenge as instructed.
 */
 module.exports = async function(helper) {
   // We start by getting the user input from the helper
-  const { answer1, answer2 } = helper.validationFields;
+  const { answer1 } = helper.validationFields;
+ 
+
+
+// https://res.cloudinary.com/tessamero/image/upload/v1611280405/turtle.png
+
+// https://res.cloudinary.com/
+// helper.env.CLOUDNAME/
+// image/upload/
+// anything after is OK
+// explain how to name the file? if there's issues?
+
+//const URL = require(answer1).URL;
+//if (URL == true)
+
+try {
+  new URL(answer1); 
+  return helper.success('Great job! Off to the next Objective!');
+}
+catch (err) {
+  return helper.fail(answer1 + ' is not a valid URL. You must enter a valid URL in the form of https://res.cloudinary.com/' + helper.env.CLOUDNAME + 'image/upload/filenamehere.png');
+}
+
+};
+
+
+
+/*
+ {
+ return helper.success('Great job! Off to the next Objective!');
+}
+else 
+  return helper.fail('You must enter a valid URL in the form of https://res.cloudinary.com/' + helper.env.CLOUDNAME + 'image/upload/filenamehere.png');
+*/
+
+/*
+
+
 
   // Next, you test the user input - fail fast if they get one of the
   // answers wrong, or some aspect is wrong! Don't provide too much
@@ -45,4 +82,5 @@ module.exports = async function(helper) {
   helper.success(`
     Hooray! You did it!
   `)
-};
+
+  */

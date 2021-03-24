@@ -20,20 +20,22 @@ module.exports = async function(helper) {
   // We start by getting the user input from the helper
   const { answer1, answer2 } = helper.validationFields;
 
-  if (answer1 == 'yes' && answer2 != '')  {
-    return helper.success('You found the link and you found your cloud name! Great job! We have generated an environment variable that is your cloudname called, ' + 
-    answer2 + 'Wonderful! ', [{name:'CLOUDNAME', value: answer2 }] );
-  }
 
-  // if anything else is inputed then error message
-  else {
-    return helper.fail('Darn. You can always click on the Help button for more instructions. We\'re here for you!');
-  }
 
+
+  
+if (answer1 == 'yes' && answer2 != '')  {
+  return helper.success('You found the link and you found your cloud name! Great job! We have generated an environment variable that is your cloudname called, ' + 
+  answer2 + ' Wonderful! ', [{name:'CLOUDNAME', value: answer2 }] );
 }
 
+// if anything else is inputed then error message
+else {
+  return helper.fail('Darn. You can always click on the Help button for more instructions. We\'re here for you!');
+}
 
-// to easily access answer2 since it's now a cloudname, use helper.env.CLOUDNAME for the variable, as it's now an environment variable!
+};
+
 
 
 

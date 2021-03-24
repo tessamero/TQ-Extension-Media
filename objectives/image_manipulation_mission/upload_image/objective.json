@@ -1,0 +1,15 @@
+{
+  "title": "Objective",
+  "description": "Upload the <strong>Photo</strong> evidence",
+  "validation_fields": [
+    {
+      "name": "answer1",
+      "type": "text",
+      "placeholder": "type your answer here",
+      "label": "Input the link to your copy of the photo evidence"
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}
