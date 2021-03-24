@@ -1,6 +1,6 @@
 {
   "title": "Objective",
-  "description": "Create a <strong>Cloudinary</strong> account",
+  "description": "Create a <strong>Cloudinary</strong> account to store the evidence",
   "validation_fields": [
     {
       "name": "answer1",
