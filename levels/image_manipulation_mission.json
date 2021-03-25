@@ -16,6 +16,10 @@
   },
   "objectives": [
     "image_manipulation_mission/create_cloudinary_account",
-    "image_manipulation_mission/upload_image"
+    "image_manipulation_mission/upload_image",
+    "image_manipulation_mission/manipulate_image1",
+    "image_manipulation_mission/manipulate_image2",
+    "image_manipulation_mission/manipulate_image3",
+    "image_manipulation_mission/manipulate_image4"
   ]
 }

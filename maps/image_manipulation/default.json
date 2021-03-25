@@ -167,8 +167,100 @@
                  "type":"chest",
                  "visible":true,
                  "width":0,
-                 "x":479.333333333333,
-                 "y":313.333333333333
+                 "x":446.833333333333,
+                 "y":489.833333333333
+                }, 
+                {
+                 "height":0,
+                 "id":92,
+                 "name":"chest",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"hackable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"objectiveName",
+                         "type":"string",
+                         "value":"manipulate_image1"
+                        }],
+                 "rotation":0,
+                 "type":"chest",
+                 "visible":true,
+                 "width":0,
+                 "x":494,
+                 "y":434.5
+                }, 
+                {
+                 "height":0,
+                 "id":99,
+                 "name":"chest",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"hackable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"objectiveName",
+                         "type":"string",
+                         "value":"manipulate_image2"
+                        }],
+                 "rotation":0,
+                 "type":"chest",
+                 "visible":true,
+                 "width":0,
+                 "x":531.5,
+                 "y":366
+                }, 
+                {
+                 "height":0,
+                 "id":100,
+                 "name":"chest",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"hackable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"objectiveName",
+                         "type":"string",
+                         "value":"manipulate_image3"
+                        }],
+                 "rotation":0,
+                 "type":"chest",
+                 "visible":true,
+                 "width":0,
+                 "x":595,
+                 "y":399
+                }, 
+                {
+                 "height":0,
+                 "id":101,
+                 "name":"chest",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"hackable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"objectiveName",
+                         "type":"string",
+                         "value":"manipulate_image4"
+                        }],
+                 "rotation":0,
+                 "type":"chest",
+                 "visible":true,
+                 "width":0,
+                 "x":589.5,
+                 "y":317
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -216,7 +308,7 @@
          "y":0
         }],
  "nextlayerid":44,
- "nextobjectid":91,
+ "nextobjectid":102,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",

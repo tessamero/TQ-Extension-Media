@@ -1,12 +1,12 @@
 {
   "title": "Objective",
-  "description": "Upload <strong>Photo</strong> evidence #1.",
+  "description": "Upload the two photos by overlaying one onto the other.",
   "validation_fields": [
     {
       "name": "answer1",
       "type": "text",
       "placeholder": "type your answer here",
-      "label": "Input the link to your copy of the photo evidence"
+      "label": "Input the URL with the boat photo, overlayed with the CASE CLOSED photo"
     }
   ],
   "rewards": {

@@ -7,6 +7,7 @@
 </ul>
 </div>
 
+All of your evidence will come in the form of photos. It is your duty to keep your evidence well organized. Your new boss is putting trust in you to be responsible for all of the photo evidence for this mission.
 
 ## Take a Copy of the Photo Evidence, Sox the Box Turtle:
 

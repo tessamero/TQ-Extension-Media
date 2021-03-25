@@ -1,0 +1,21 @@
+{
+  "title": "Objective",
+  "description": "Upload another <strong>Photo</strong> evidence and mark it as evidence #4",
+  "validation_fields": [
+    {
+      "name": "answer1",
+      "type": "text",
+      "placeholder": "type your answer here",
+      "label": "Input the new URL with #4 added onto the photo"
+    },
+    {
+      "name": "answer2",
+      "type": "text",
+      "placeholder": "type your answer here",
+      "label": "Input the URL that combines all 4 evidence"
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}
