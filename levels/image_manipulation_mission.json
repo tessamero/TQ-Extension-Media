@@ -1,6 +1,6 @@
 {
   "title": "Save the Turtle Mission",
-  "description": "In this mission, you will learn how to edit images in real-time by serving as a detective to save a box turtle",
+  "description": "In this mission, you will learn how to work with Cloudinary image overlays by serving as a detective to save a box turtle.",
   "events": "image_manipulation_mission/events.js",
   "default_map": "image_manipulation/default.json",
   "mission_icon": "mission_icon.png",
